@@ -11,7 +11,7 @@
 					<th>Objet du mail</th>
 				</tr>
 				
-				<% @emails.each do |email| %>
+				<% @email_all.each do |email| %>
 				<tr>
 					<!-- affiche les objects des emails -->
 					<td id="object_<%= email.id %>" class="read"><%= link_to email.object, email_path(email), remote: true %></td>
@@ -25,22 +25,20 @@
 		<div class="col-lg-6">
 
 			<table class="table table-striped">
+				
 				<tr>
 					<th>Contenu</th>
 				</tr>
-				<table>
-						<!-- affiche les objects, les emails et le bouton supprimer-->
-					<% @emails.each do |email| %>
-					
-					<div id="body_<%= email.id %>" class="emailcontent" style="display: none;">
-						<div class="row" id="box">
-							<h1><%= email.object %></h1><br>
-							<p><%= email.body %></p>
-						</div>
-					</div>
 
-					<% end %>
-				</table>
+					<table>
+						<div id="content" style="display: none;">
+						<% @email_all.each do |email| %>
+							<span><strong id="object"><%= email.object %></strong></span>
+							<p id="body"><%= email.body %></p>
+						<% end %>
+						</div>
+					</table>
+
 			</table>
 
 		</div>

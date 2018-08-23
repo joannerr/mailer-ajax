@@ -1,3 +1,6 @@
 $(document).ready(function(){
+  // change the displayed email
+  let new_email = $("<%= j (render 'col-lg-6', email: @email) %>");
+  $('.col-lg-6').replaceWith(new_email);
+})
 
-});

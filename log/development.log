@@ -2330,3 +2330,2522 @@ Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
 NoMethodError (undefined method `read=' for nil:NilClass):
   
 app/controllers/emails_controller.rb:13:in `show'
+Started GET "/" for 127.0.0.1 at 2018-08-23 19:18:07 +0200
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/jounane/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by EmailsController#index as HTML
+  Rendering emails/index.html.erb within layouts/application
+  [1m[36mEmail Load (0.2ms)[0m  [1m[34mSELECT "emails".* FROM "emails"[0m
+  ↳ app/views/emails/index.html.erb:14
+  Rendered emails/index.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 228ms (Views: 216.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 19:18:09 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `read=' for nil:NilClass):
+  
+app/controllers/emails_controller.rb:13:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 19:18:09 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `read=' for nil:NilClass):
+  
+app/controllers/emails_controller.rb:13:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 19:18:09 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `read=' for nil:NilClass):
+  
+app/controllers/emails_controller.rb:13:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 19:18:10 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `read=' for nil:NilClass):
+  
+app/controllers/emails_controller.rb:13:in `show'
+Started GET "/" for 127.0.0.1 at 2018-08-23 19:30:38 +0200
+Processing by EmailsController#index as HTML
+  Rendering emails/index.html.erb within layouts/application
+  [1m[36mEmail Load (0.4ms)[0m  [1m[34mSELECT "emails".* FROM "emails"[0m
+  ↳ app/views/emails/index.html.erb:14
+  Rendered emails/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 54ms (Views: 50.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 19:30:43 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `read=' for nil:NilClass):
+  
+app/controllers/emails_controller.rb:13:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 19:30:45 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `read=' for nil:NilClass):
+  
+app/controllers/emails_controller.rb:13:in `show'
+Started GET "/emails/2" for 127.0.0.1 at 2018-08-23 19:30:50 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"2"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `read=' for nil:NilClass):
+  
+app/controllers/emails_controller.rb:13:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 19:30:51 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `read=' for nil:NilClass):
+  
+app/controllers/emails_controller.rb:13:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 19:30:51 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `read=' for nil:NilClass):
+  
+app/controllers/emails_controller.rb:13:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 19:30:53 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `read=' for nil:NilClass):
+  
+app/controllers/emails_controller.rb:13:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 19:30:54 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `read=' for nil:NilClass):
+  
+app/controllers/emails_controller.rb:13:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 19:30:55 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `read=' for nil:NilClass):
+  
+app/controllers/emails_controller.rb:13:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 19:30:55 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `read=' for nil:NilClass):
+  
+app/controllers/emails_controller.rb:13:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 19:30:56 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `read=' for nil:NilClass):
+  
+app/controllers/emails_controller.rb:13:in `show'
+Started GET "/emails/2" for 127.0.0.1 at 2018-08-23 19:30:57 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"2"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `read=' for nil:NilClass):
+  
+app/controllers/emails_controller.rb:13:in `show'
+Started GET "/emails/3" for 127.0.0.1 at 2018-08-23 19:30:58 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"3"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `read=' for nil:NilClass):
+  
+app/controllers/emails_controller.rb:13:in `show'
+Started GET "/emails/2" for 127.0.0.1 at 2018-08-23 19:30:59 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"2"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `read=' for nil:NilClass):
+  
+app/controllers/emails_controller.rb:13:in `show'
+Started GET "/" for 127.0.0.1 at 2018-08-23 19:45:23 +0200
+Processing by EmailsController#index as HTML
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" ORDER BY "emails"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:29
+  Rendering emails/index.html.erb within layouts/application
+  [1m[36mEmail Load (0.2ms)[0m  [1m[34mSELECT "emails".* FROM "emails"[0m
+  ↳ app/views/emails/index.html.erb:14
+  Rendered emails/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 41ms (Views: 29.6ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 19:45:28 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `read=' for nil:NilClass):
+  
+app/controllers/emails_controller.rb:13:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 19:45:29 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `read=' for nil:NilClass):
+  
+app/controllers/emails_controller.rb:13:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 19:45:29 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `read=' for nil:NilClass):
+  
+app/controllers/emails_controller.rb:13:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 19:45:29 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `read=' for nil:NilClass):
+  
+app/controllers/emails_controller.rb:13:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 19:45:30 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `read=' for nil:NilClass):
+  
+app/controllers/emails_controller.rb:13:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 19:45:30 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `read=' for nil:NilClass):
+  
+app/controllers/emails_controller.rb:13:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 19:45:30 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `read=' for nil:NilClass):
+  
+app/controllers/emails_controller.rb:13:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 19:45:31 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `read=' for nil:NilClass):
+  
+app/controllers/emails_controller.rb:13:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 19:45:31 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `read=' for nil:NilClass):
+  
+app/controllers/emails_controller.rb:13:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 19:45:31 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `read=' for nil:NilClass):
+  
+app/controllers/emails_controller.rb:13:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 19:45:31 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `read=' for nil:NilClass):
+  
+app/controllers/emails_controller.rb:13:in `show'
+Started GET "/emails/2" for 127.0.0.1 at 2018-08-23 19:45:32 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"2"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `read=' for nil:NilClass):
+  
+app/controllers/emails_controller.rb:13:in `show'
+Started GET "/emails/3" for 127.0.0.1 at 2018-08-23 19:45:33 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"3"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `read=' for nil:NilClass):
+  
+app/controllers/emails_controller.rb:13:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 19:45:34 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `read=' for nil:NilClass):
+  
+app/controllers/emails_controller.rb:13:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 19:45:34 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `read=' for nil:NilClass):
+  
+app/controllers/emails_controller.rb:13:in `show'
+Started GET "/" for 127.0.0.1 at 2018-08-23 19:46:36 +0200
+Processing by EmailsController#index as HTML
+  [1m[36mEmail Load (0.8ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" ORDER BY "emails"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:29
+  Rendering emails/index.html.erb within layouts/application
+  [1m[36mEmail Load (0.4ms)[0m  [1m[34mSELECT "emails".* FROM "emails"[0m
+  ↳ app/views/emails/index.html.erb:14
+  Rendered emails/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 40ms (Views: 32.5ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 19:46:40 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `read=' for nil:NilClass):
+  
+app/controllers/emails_controller.rb:13:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 19:46:40 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `read=' for nil:NilClass):
+  
+app/controllers/emails_controller.rb:13:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 19:46:41 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `read=' for nil:NilClass):
+  
+app/controllers/emails_controller.rb:13:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 19:46:41 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `read=' for nil:NilClass):
+  
+app/controllers/emails_controller.rb:13:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 19:46:41 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `read=' for nil:NilClass):
+  
+app/controllers/emails_controller.rb:13:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 19:46:41 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `read=' for nil:NilClass):
+  
+app/controllers/emails_controller.rb:13:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 19:46:41 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `read=' for nil:NilClass):
+  
+app/controllers/emails_controller.rb:13:in `show'
+Started GET "/" for 127.0.0.1 at 2018-08-23 19:47:43 +0200
+Processing by EmailsController#index as HTML
+  [1m[36mEmail Load (0.2ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" ORDER BY "emails"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:29
+  Rendering emails/index.html.erb within layouts/application
+  [1m[36mEmail Load (0.3ms)[0m  [1m[34mSELECT "emails".* FROM "emails"[0m
+  ↳ app/views/emails/index.html.erb:14
+  Rendered emails/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 27ms (Views: 24.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 19:47:46 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `read=' for nil:NilClass):
+  
+app/controllers/emails_controller.rb:13:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 19:47:47 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `read=' for nil:NilClass):
+  
+app/controllers/emails_controller.rb:13:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 19:47:47 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `read=' for nil:NilClass):
+  
+app/controllers/emails_controller.rb:13:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 19:47:47 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `read=' for nil:NilClass):
+  
+app/controllers/emails_controller.rb:13:in `show'
+Started GET "/emails/2" for 127.0.0.1 at 2018-08-23 19:47:48 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"2"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `read=' for nil:NilClass):
+  
+app/controllers/emails_controller.rb:13:in `show'
+Started GET "/emails/3" for 127.0.0.1 at 2018-08-23 19:47:49 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"3"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `read=' for nil:NilClass):
+  
+app/controllers/emails_controller.rb:13:in `show'
+Started GET "/emails/3" for 127.0.0.1 at 2018-08-23 19:47:49 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"3"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `read=' for nil:NilClass):
+  
+app/controllers/emails_controller.rb:13:in `show'
+Started GET "/emails/3" for 127.0.0.1 at 2018-08-23 19:47:50 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"3"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `read=' for nil:NilClass):
+  
+app/controllers/emails_controller.rb:13:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 19:47:50 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `read=' for nil:NilClass):
+  
+app/controllers/emails_controller.rb:13:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 19:47:51 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `read=' for nil:NilClass):
+  
+app/controllers/emails_controller.rb:13:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 19:47:51 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `read=' for nil:NilClass):
+  
+app/controllers/emails_controller.rb:13:in `show'
+Started GET "/" for 127.0.0.1 at 2018-08-23 19:48:37 +0200
+Processing by EmailsController#index as HTML
+  [1m[36mEmail Load (0.4ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" ORDER BY "emails"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:29
+  Rendering emails/index.html.erb within layouts/application
+  [1m[36mEmail Load (0.2ms)[0m  [1m[34mSELECT "emails".* FROM "emails"[0m
+  ↳ app/views/emails/index.html.erb:14
+  Rendered emails/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 27ms (Views: 22.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 19:48:39 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `read=' for nil:NilClass):
+  
+app/controllers/emails_controller.rb:13:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 19:48:40 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `read=' for nil:NilClass):
+  
+app/controllers/emails_controller.rb:13:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 19:48:40 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `read=' for nil:NilClass):
+  
+app/controllers/emails_controller.rb:13:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 19:48:40 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `read=' for nil:NilClass):
+  
+app/controllers/emails_controller.rb:13:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 19:48:41 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `read=' for nil:NilClass):
+  
+app/controllers/emails_controller.rb:13:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 19:48:41 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `read=' for nil:NilClass):
+  
+app/controllers/emails_controller.rb:13:in `show'
+Started GET "/emails/2" for 127.0.0.1 at 2018-08-23 19:48:46 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"2"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `read=' for nil:NilClass):
+  
+app/controllers/emails_controller.rb:13:in `show'
+Started GET "/emails/2" for 127.0.0.1 at 2018-08-23 19:48:47 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"2"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `read=' for nil:NilClass):
+  
+app/controllers/emails_controller.rb:13:in `show'
+Started GET "/emails/2" for 127.0.0.1 at 2018-08-23 19:48:47 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"2"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `read=' for nil:NilClass):
+  
+app/controllers/emails_controller.rb:13:in `show'
+Started GET "/emails/2" for 127.0.0.1 at 2018-08-23 19:48:47 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"2"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `read=' for nil:NilClass):
+  
+app/controllers/emails_controller.rb:13:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 19:48:48 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `read=' for nil:NilClass):
+  
+app/controllers/emails_controller.rb:13:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 19:48:48 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `read=' for nil:NilClass):
+  
+app/controllers/emails_controller.rb:13:in `show'
+Started GET "/" for 127.0.0.1 at 2018-08-23 19:49:04 +0200
+Processing by EmailsController#index as HTML
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" ORDER BY "emails"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:29
+  Rendering emails/index.html.erb within layouts/application
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT "emails".* FROM "emails"[0m
+  ↳ app/views/emails/index.html.erb:14
+  Rendered emails/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 24ms (Views: 22.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 19:49:06 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `read=' for nil:NilClass):
+  
+app/controllers/emails_controller.rb:13:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 19:49:06 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `read=' for nil:NilClass):
+  
+app/controllers/emails_controller.rb:13:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 19:49:07 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `read=' for nil:NilClass):
+  
+app/controllers/emails_controller.rb:13:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 19:49:07 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `read=' for nil:NilClass):
+  
+app/controllers/emails_controller.rb:13:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 19:49:07 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `read=' for nil:NilClass):
+  
+app/controllers/emails_controller.rb:13:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 19:49:08 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `read=' for nil:NilClass):
+  
+app/controllers/emails_controller.rb:13:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 19:49:08 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `read=' for nil:NilClass):
+  
+app/controllers/emails_controller.rb:13:in `show'
+Started GET "/" for 127.0.0.1 at 2018-08-23 19:49:52 +0200
+Processing by EmailsController#index as HTML
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" ORDER BY "emails"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:9
+  Rendering emails/index.html.erb within layouts/application
+  [1m[36mEmail Load (0.2ms)[0m  [1m[34mSELECT "emails".* FROM "emails"[0m
+  ↳ app/views/emails/index.html.erb:14
+  Rendered emails/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 25ms (Views: 15.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 19:49:55 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `read=' for nil:NilClass):
+  
+app/controllers/emails_controller.rb:14:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 19:49:55 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `read=' for nil:NilClass):
+  
+app/controllers/emails_controller.rb:14:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 19:49:55 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `read=' for nil:NilClass):
+  
+app/controllers/emails_controller.rb:14:in `show'
+Started GET "/emails/2" for 127.0.0.1 at 2018-08-23 19:49:56 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"2"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `read=' for nil:NilClass):
+  
+app/controllers/emails_controller.rb:14:in `show'
+Started GET "/emails/2" for 127.0.0.1 at 2018-08-23 19:49:56 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"2"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `read=' for nil:NilClass):
+  
+app/controllers/emails_controller.rb:14:in `show'
+Started GET "/emails/3" for 127.0.0.1 at 2018-08-23 19:49:57 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"3"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `read=' for nil:NilClass):
+  
+app/controllers/emails_controller.rb:14:in `show'
+Started GET "/emails/3" for 127.0.0.1 at 2018-08-23 19:49:57 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"3"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `read=' for nil:NilClass):
+  
+app/controllers/emails_controller.rb:14:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 19:49:58 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `read=' for nil:NilClass):
+  
+app/controllers/emails_controller.rb:14:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 19:50:00 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `read=' for nil:NilClass):
+  
+app/controllers/emails_controller.rb:14:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 19:50:00 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `read=' for nil:NilClass):
+  
+app/controllers/emails_controller.rb:14:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 19:50:00 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `read=' for nil:NilClass):
+  
+app/controllers/emails_controller.rb:14:in `show'
+Started GET "/" for 127.0.0.1 at 2018-08-23 19:50:15 +0200
+Processing by EmailsController#index as HTML
+  [1m[36mEmail Load (0.2ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" ORDER BY "emails"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:9
+  Rendering emails/index.html.erb within layouts/application
+  [1m[36mEmail Load (0.2ms)[0m  [1m[34mSELECT "emails".* FROM "emails"[0m
+  ↳ app/views/emails/index.html.erb:14
+  Rendered emails/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 24ms (Views: 21.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 19:50:16 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `read=' for nil:NilClass):
+  
+app/controllers/emails_controller.rb:14:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 19:50:16 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `read=' for nil:NilClass):
+  
+app/controllers/emails_controller.rb:14:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 19:50:17 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `read=' for nil:NilClass):
+  
+app/controllers/emails_controller.rb:14:in `show'
+Started GET "/emails/2" for 127.0.0.1 at 2018-08-23 19:50:18 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"2"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `read=' for nil:NilClass):
+  
+app/controllers/emails_controller.rb:14:in `show'
+Started GET "/emails/2" for 127.0.0.1 at 2018-08-23 19:50:18 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"2"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `read=' for nil:NilClass):
+  
+app/controllers/emails_controller.rb:14:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 19:50:19 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `read=' for nil:NilClass):
+  
+app/controllers/emails_controller.rb:14:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 19:50:19 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `read=' for nil:NilClass):
+  
+app/controllers/emails_controller.rb:14:in `show'
+Started GET "/" for 127.0.0.1 at 2018-08-23 22:55:25 +0200
+Processing by EmailsController#index as HTML
+  Rendering emails/index.html.erb within layouts/application
+  Rendered emails/index.html.erb within layouts/application (3.5ms)
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/jounane/Documents/THP/email-viewer/app/views/emails/index.html.erb:55: syntax error, unexpected keyword_ensure, expecting end-of-input
+          ensure
+          ^~~~~~):
+  
+app/views/emails/index.html.erb:55: syntax error, unexpected keyword_ensure, expecting end-of-input
+Started GET "/" for 127.0.0.1 at 2018-08-23 22:55:55 +0200
+Processing by EmailsController#index as HTML
+  Rendering emails/index.html.erb within layouts/application
+  Rendered emails/index.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/jounane/Documents/THP/email-viewer/app/views/emails/index.html.erb:55: syntax error, unexpected keyword_ensure, expecting end-of-input
+          ensure
+          ^~~~~~):
+  
+app/views/emails/index.html.erb:55: syntax error, unexpected keyword_ensure, expecting end-of-input
+Started GET "/" for 127.0.0.1 at 2018-08-23 22:56:01 +0200
+Processing by EmailsController#index as HTML
+  Rendering emails/index.html.erb within layouts/application
+  [1m[36mEmail Load (0.2ms)[0m  [1m[34mSELECT "emails".* FROM "emails"[0m
+  ↳ app/views/emails/index.html.erb:14
+  Rendered emails/index.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 35ms (Views: 32.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 22:56:03 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mEmail Load (0.2ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:8
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.2ms)
+
+
+  
+NoMethodError (undefined method `read=' for #<Email:0x00007fe9231217e0>
+Did you mean?  reload):
+  
+app/controllers/emails_controller.rb:9:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 22:56:04 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:8
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.1ms)
+
+
+  
+NoMethodError (undefined method `read=' for #<Email:0x00007fe92235e450>
+Did you mean?  reload):
+  
+app/controllers/emails_controller.rb:9:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 22:56:04 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:8
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.1ms)
+
+
+  
+NoMethodError (undefined method `read=' for #<Email:0x00007fe926d1a3a0>
+Did you mean?  reload):
+  
+app/controllers/emails_controller.rb:9:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 22:56:04 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:8
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.1ms)
+
+
+  
+NoMethodError (undefined method `read=' for #<Email:0x00007fe9281c8a18>
+Did you mean?  reload):
+  
+app/controllers/emails_controller.rb:9:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 22:56:05 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:8
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.1ms)
+
+
+  
+NoMethodError (undefined method `read=' for #<Email:0x00007fe922346850>
+Did you mean?  reload):
+  
+app/controllers/emails_controller.rb:9:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 22:56:05 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:8
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.1ms)
+
+
+  
+NoMethodError (undefined method `read=' for #<Email:0x00007fe9282a9cc0>
+Did you mean?  reload):
+  
+app/controllers/emails_controller.rb:9:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 22:56:05 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:8
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.1ms)
+
+
+  
+NoMethodError (undefined method `read=' for #<Email:0x00007fe928093828>
+Did you mean?  reload):
+  
+app/controllers/emails_controller.rb:9:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 22:56:05 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:8
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.1ms)
+
+
+  
+NoMethodError (undefined method `read=' for #<Email:0x00007fe92833b030>
+Did you mean?  reload):
+  
+app/controllers/emails_controller.rb:9:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 22:56:06 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:8
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.1ms)
+
+
+  
+NoMethodError (undefined method `read=' for #<Email:0x00007fe928101fa8>
+Did you mean?  reload):
+  
+app/controllers/emails_controller.rb:9:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 22:56:46 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:8
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.1ms)
+
+
+  
+NoMethodError (undefined method `read=' for #<Email:0x00007fe921d75ae8>
+Did you mean?  reload):
+  
+app/controllers/emails_controller.rb:9:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 22:56:47 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:8
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.1ms)
+
+
+  
+NoMethodError (undefined method `read=' for #<Email:0x00007fe922ec9920>
+Did you mean?  reload):
+  
+app/controllers/emails_controller.rb:9:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 22:56:47 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:8
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.1ms)
+
+
+  
+NoMethodError (undefined method `read=' for #<Email:0x00007fe928202290>
+Did you mean?  reload):
+  
+app/controllers/emails_controller.rb:9:in `show'
+Started GET "/" for 127.0.0.1 at 2018-08-23 22:59:57 +0200
+Processing by EmailsController#index as HTML
+  Rendering emails/index.html.erb within layouts/application
+  [1m[36mEmail Load (0.2ms)[0m  [1m[34mSELECT "emails".* FROM "emails"[0m
+  ↳ app/views/emails/index.html.erb:14
+  Rendered emails/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 24ms (Views: 22.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 22:59:58 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mEmail Load (0.2ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:8
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.2ms)
+
+
+  
+NoMethodError (undefined method `read=' for #<Email:0x00007fe926e2bd48>
+Did you mean?  reload):
+  
+app/controllers/emails_controller.rb:9:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 22:59:59 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:8
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.1ms)
+
+
+  
+NoMethodError (undefined method `read=' for #<Email:0x00007fe926818e88>
+Did you mean?  reload):
+  
+app/controllers/emails_controller.rb:9:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 22:59:59 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:8
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.1ms)
+
+
+  
+NoMethodError (undefined method `read=' for #<Email:0x00007fe928190af0>
+Did you mean?  reload):
+  
+app/controllers/emails_controller.rb:9:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 22:59:59 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:8
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.1ms)
+
+
+  
+NoMethodError (undefined method `read=' for #<Email:0x00007fe925f6ec88>
+Did you mean?  reload):
+  
+app/controllers/emails_controller.rb:9:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 22:59:59 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:8
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.1ms)
+
+
+  
+NoMethodError (undefined method `read=' for #<Email:0x00007fe921f7a410>
+Did you mean?  reload):
+  
+app/controllers/emails_controller.rb:9:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 22:59:59 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:8
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.1ms)
+
+
+  
+NoMethodError (undefined method `read=' for #<Email:0x00007fe926f430f0>
+Did you mean?  reload):
+  
+app/controllers/emails_controller.rb:9:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 23:00:00 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:8
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.1ms)
+
+
+  
+NoMethodError (undefined method `read=' for #<Email:0x00007fe926b8b7c8>
+Did you mean?  reload):
+  
+app/controllers/emails_controller.rb:9:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 23:00:00 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:8
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.1ms)
+
+
+  
+NoMethodError (undefined method `read=' for #<Email:0x00007fe9282b0b60>
+Did you mean?  reload):
+  
+app/controllers/emails_controller.rb:9:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 23:00:00 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:8
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.1ms)
+
+
+  
+NoMethodError (undefined method `read=' for #<Email:0x00007fe92805af28>
+Did you mean?  reload):
+  
+app/controllers/emails_controller.rb:9:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 23:00:00 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:8
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.1ms)
+
+
+  
+NoMethodError (undefined method `read=' for #<Email:0x00007fe922f8d7d0>
+Did you mean?  reload):
+  
+app/controllers/emails_controller.rb:9:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 23:00:01 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:8
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.1ms)
+
+
+  
+NoMethodError (undefined method `read=' for #<Email:0x00007fe9288695e8>
+Did you mean?  reload):
+  
+app/controllers/emails_controller.rb:9:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 23:00:01 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:8
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.1ms)
+
+
+  
+NoMethodError (undefined method `read=' for #<Email:0x00007fe926d7be48>
+Did you mean?  reload):
+  
+app/controllers/emails_controller.rb:9:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 23:00:01 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:8
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.1ms)
+
+
+  
+NoMethodError (undefined method `read=' for #<Email:0x00007fe921d2d540>
+Did you mean?  reload):
+  
+app/controllers/emails_controller.rb:9:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 23:00:01 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:8
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.1ms)
+
+
+  
+NoMethodError (undefined method `read=' for #<Email:0x00007fe926e83110>
+Did you mean?  reload):
+  
+app/controllers/emails_controller.rb:9:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 23:00:01 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:8
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.1ms)
+
+
+  
+NoMethodError (undefined method `read=' for #<Email:0x00007fe9221b5f90>
+Did you mean?  reload):
+  
+app/controllers/emails_controller.rb:9:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 23:00:02 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:8
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.1ms)
+
+
+  
+NoMethodError (undefined method `read=' for #<Email:0x00007fe9288f2b68>
+Did you mean?  reload):
+  
+app/controllers/emails_controller.rb:9:in `show'
+Started GET "/" for 127.0.0.1 at 2018-08-23 23:01:03 +0200
+Processing by EmailsController#index as HTML
+  Rendering emails/index.html.erb within layouts/application
+  [1m[36mEmail Load (0.5ms)[0m  [1m[34mSELECT "emails".* FROM "emails"[0m
+  ↳ app/views/emails/index.html.erb:14
+  Rendered emails/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 20ms (Views: 17.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 23:01:05 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:8
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.1ms)
+
+
+  
+NoMethodError (undefined method `read=' for #<Email:0x00007fe925d8a2f0>
+Did you mean?  reload):
+  
+app/controllers/emails_controller.rb:9:in `show'
+Started GET "/" for 127.0.0.1 at 2018-08-23 23:01:12 +0200
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/jounane/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by EmailsController#index as HTML
+  Rendering emails/index.html.erb within layouts/application
+  [1m[36mEmail Load (0.2ms)[0m  [1m[34mSELECT "emails".* FROM "emails"[0m
+  ↳ app/views/emails/index.html.erb:14
+  Rendered emails/index.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 222ms (Views: 211.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 23:01:14 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mEmail Load (0.2ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:8
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.2ms)
+
+
+  
+NoMethodError (undefined method `read=' for #<Email:0x00007fab7ceda9c0>
+Did you mean?  reload):
+  
+app/controllers/emails_controller.rb:9:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 23:01:14 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:8
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.1ms)
+
+
+  
+NoMethodError (undefined method `read=' for #<Email:0x00007fab7e922d00>
+Did you mean?  reload):
+  
+app/controllers/emails_controller.rb:9:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 23:01:14 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:8
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.1ms)
+
+
+  
+NoMethodError (undefined method `read=' for #<Email:0x00007fab7f8cba40>
+Did you mean?  reload):
+  
+app/controllers/emails_controller.rb:9:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 23:01:14 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:8
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.1ms)
+
+
+  
+NoMethodError (undefined method `read=' for #<Email:0x00007fab80281710>
+Did you mean?  reload):
+  
+app/controllers/emails_controller.rb:9:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 23:01:15 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:8
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.1ms)
+
+
+  
+NoMethodError (undefined method `read=' for #<Email:0x00007fab7f8d30b0>
+Did you mean?  reload):
+  
+app/controllers/emails_controller.rb:9:in `show'
+Started GET "/" for 127.0.0.1 at 2018-08-23 23:05:23 +0200
+Processing by EmailsController#index as HTML
+  Rendering emails/index.html.erb within layouts/application
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT "emails".* FROM "emails"[0m
+  ↳ app/views/emails/index.html.erb:14
+  Rendered emails/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 45ms (Views: 43.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 23:05:24 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mEmail Load (0.5ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:8
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.5ms)
+
+
+  
+NoMethodError (undefined method `read=' for #<Email:0x00007fab7cdea100>
+Did you mean?  reload):
+  
+app/controllers/emails_controller.rb:9:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 23:05:25 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:8
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.1ms)
+
+
+  
+NoMethodError (undefined method `read=' for #<Email:0x00007fab79efc6b8>
+Did you mean?  reload):
+  
+app/controllers/emails_controller.rb:9:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 23:05:25 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:8
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.1ms)
+
+
+  
+NoMethodError (undefined method `read=' for #<Email:0x00007fab7f98b2a0>
+Did you mean?  reload):
+  
+app/controllers/emails_controller.rb:9:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 23:05:25 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:8
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.1ms)
+
+
+  
+NoMethodError (undefined method `read=' for #<Email:0x00007fab7ef7a860>
+Did you mean?  reload):
+  
+app/controllers/emails_controller.rb:9:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 23:05:25 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:8
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.1ms)
+
+
+  
+NoMethodError (undefined method `read=' for #<Email:0x00007fab7ec10eb8>
+Did you mean?  reload):
+  
+app/controllers/emails_controller.rb:9:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 23:07:49 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:8
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.1ms)
+
+
+  
+NoMethodError (undefined method `read=' for #<Email:0x00007fab79c7d1d0>
+Did you mean?  reload):
+  
+app/controllers/emails_controller.rb:9:in `show'
+Started GET "/" for 127.0.0.1 at 2018-08-23 23:07:51 +0200
+Processing by EmailsController#index as HTML
+  Rendering emails/index.html.erb within layouts/application
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT "emails".* FROM "emails"[0m
+  ↳ app/views/emails/index.html.erb:14
+  Rendered emails/index.html.erb within layouts/application (222.8ms)
+Completed 500 Internal Server Error in 230ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `email' for #<#<Class:0x00007fab797749b8>:0x00007fab800e8548>
+Did you mean?  @emails):
+    32: 				<table id="fullcontent">
+    33: 						<!-- affiche les objects, les emails et le bouton supprimer-->
+    34: 					<div class="content">
+    35: 					    <span>Objet: <strong id="object"><%= email.object %></strong></span>
+    36: 					    <p id="body"><%= email.body %></p>
+    37: 					</div>
+    38: 				</table>
+  
+app/views/emails/index.html.erb:35:in `_app_views_emails_index_html_erb___1187598816628897153_70187282286380'
+Started GET "/" for 127.0.0.1 at 2018-08-23 23:08:32 +0200
+Processing by EmailsController#index as HTML
+  Rendering emails/index.html.erb within layouts/application
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT "emails".* FROM "emails"[0m
+  ↳ app/views/emails/index.html.erb:14
+  Rendered emails/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 28ms (Views: 25.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 23:08:38 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:8
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.1ms)
+
+
+  
+NoMethodError (undefined method `read=' for #<Email:0x00007fab7f8a8a68>
+Did you mean?  reload):
+  
+app/controllers/emails_controller.rb:9:in `show'
+Started GET "/emails/2" for 127.0.0.1 at 2018-08-23 23:08:39 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"2"}
+  [1m[36mEmail Load (0.2ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:8
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.2ms)
+
+
+  
+NoMethodError (undefined method `read=' for #<Email:0x00007fab7cfb9238>
+Did you mean?  reload):
+  
+app/controllers/emails_controller.rb:9:in `show'
+Started GET "/" for 127.0.0.1 at 2018-08-23 23:09:13 +0200
+Processing by EmailsController#index as HTML
+  Rendering emails/index.html.erb within layouts/application
+  [1m[36mEmail Load (0.2ms)[0m  [1m[34mSELECT "emails".* FROM "emails"[0m
+  ↳ app/views/emails/index.html.erb:14
+  Rendered emails/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 27ms (Views: 24.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-23 23:10:52 +0200
+Processing by EmailsController#index as HTML
+  Rendering emails/index.html.erb within layouts/application
+  [1m[36mEmail Load (0.2ms)[0m  [1m[34mSELECT "emails".* FROM "emails"[0m
+  ↳ app/views/emails/index.html.erb:14
+  Rendered emails/index.html.erb within layouts/application (268.2ms)
+Completed 500 Internal Server Error in 274ms (ActiveRecord: 0.2ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `email' for #<#<Class:0x00007fab797749b8>:0x00007fab79cbc0d8>
+Did you mean?  @emails):
+    34: 					<span>Cliquez sur un email pour en afficher le contenu</span>
+    35: 						<!-- affiche les objects, les emails et le bouton supprimer-->
+    36: 					<div class="content">
+    37: 					    <span><strong id="object"><%= email.object %></strong></span>
+    38: 					    <p id="body"><%= email.body %></p>
+    39: 					</div>
+    40: 					<% end %>
+  
+app/views/emails/index.html.erb:37:in `_app_views_emails_index_html_erb___1187598816628897153_70187229798540'
+Started GET "/" for 127.0.0.1 at 2018-08-23 23:12:44 +0200
+Processing by EmailsController#index as HTML
+  Rendering emails/index.html.erb within layouts/application
+  [1m[36mEmail Load (0.3ms)[0m  [1m[34mSELECT "emails".* FROM "emails"[0m
+  ↳ app/views/emails/index.html.erb:14
+  Rendered emails/index.html.erb within layouts/application (256.7ms)
+Completed 500 Internal Server Error in 262ms (ActiveRecord: 0.3ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `email' for #<#<Class:0x00007fab797749b8>:0x00007fab79721290>
+Did you mean?  @emails):
+    34: 						<span>Cliquez sur un email pour en afficher le contenu</span>
+    35: 							<!-- affiche les objects, les emails et le bouton supprimer-->
+    36: 						
+    37: 						    <span><strong id="object"><%= email.object %></strong></span>
+    38: 						    <p id="body"><%= email.body %></p>					
+    39: 						<% end %>
+    40: 					</table>
+  
+app/views/emails/index.html.erb:37:in `_app_views_emails_index_html_erb___1187598816628897153_70187226862500'
+Started GET "/" for 127.0.0.1 at 2018-08-23 23:32:37 +0200
+Processing by EmailsController#index as HTML
+  Rendering emails/index.html.erb within layouts/application
+  [1m[36mEmail Load (0.2ms)[0m  [1m[34mSELECT "emails".* FROM "emails"[0m
+  ↳ app/views/emails/index.html.erb:14
+  Rendered emails/index.html.erb within layouts/application (4.7ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.2ms)
+
+
+  
+ActionView::Template::Error (undefined method `length' for nil:NilClass):
+    30: 				</tr>
+    31: 				<div class="content">
+    32: 					<table id="fullcontent">
+    33: 						<tr id ="contenu" rowspan="<%= @email_all.length %>">Sélectionner un email</tr>
+    34: 					</table>
+    35: 				</div>
+    36: 			</table>
+  
+app/views/emails/index.html.erb:33:in `_app_views_emails_index_html_erb___1187598816628897153_70187236537900'
+Started GET "/" for 127.0.0.1 at 2018-08-23 23:39:00 +0200
+Processing by EmailsController#index as HTML
+  Rendering emails/index.html.erb within layouts/application
+  Rendered emails/index.html.erb within layouts/application (2.7ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    11: 					<th>Objet du mail</th>
+    12: 				</tr>
+    13: 				
+    14: 				<% @emails.each do |email| %>
+    15: 				<tr>
+    16: 					<!-- affiche les objects des emails -->
+    17: 					<td id="object_<%= email.id %>" class="read"><%= link_to email.object, email_path(email), remote: true %></td>
+  
+app/views/emails/index.html.erb:14:in `_app_views_emails_index_html_erb___1187598816628897153_70187255746920'
+Started GET "/" for 127.0.0.1 at 2018-08-23 23:39:18 +0200
+Processing by EmailsController#index as HTML
+  Rendering emails/index.html.erb within layouts/application
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT "emails".* FROM "emails"[0m
+  ↳ app/views/emails/index.html.erb:14
+  Rendered emails/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 29ms (Views: 25.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 23:39:27 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:8
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.1ms)
+
+
+  
+NoMethodError (undefined method `read=' for #<Email:0x00007fab7f8ea328>
+Did you mean?  reload):
+  
+app/controllers/emails_controller.rb:9:in `show'
+Started GET "/" for 127.0.0.1 at 2018-08-23 23:39:30 +0200
+Processing by EmailsController#index as HTML
+  Rendering emails/index.html.erb within layouts/application
+  [1m[36mEmail Load (0.5ms)[0m  [1m[34mSELECT "emails".* FROM "emails"[0m
+  ↳ app/views/emails/index.html.erb:14
+  Rendered emails/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 20ms (Views: 17.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-23 23:40:04 +0200
+Processing by EmailsController#index as HTML
+  Rendering emails/index.html.erb within layouts/application
+  [1m[36mEmail Load (0.3ms)[0m  [1m[34mSELECT "emails".* FROM "emails"[0m
+  ↳ app/views/emails/index.html.erb:14
+  Rendered emails/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 18ms (Views: 15.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 23:40:06 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:8
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.1ms)
+
+
+  
+NoMethodError (undefined method `read=' for #<Email:0x00007fab7a238de0>
+Did you mean?  reload):
+  
+app/controllers/emails_controller.rb:9:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 23:40:07 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:8
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.1ms)
+
+
+  
+NoMethodError (undefined method `read=' for #<Email:0x00007fab7c811490>
+Did you mean?  reload):
+  
+app/controllers/emails_controller.rb:9:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 23:40:07 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:8
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.1ms)
+
+
+  
+NoMethodError (undefined method `read=' for #<Email:0x00007fab800a9960>
+Did you mean?  reload):
+  
+app/controllers/emails_controller.rb:9:in `show'
+Started GET "/" for 127.0.0.1 at 2018-08-23 23:41:34 +0200
+Processing by EmailsController#index as HTML
+  Rendering emails/index.html.erb within layouts/application
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT "emails".* FROM "emails"[0m
+  ↳ app/views/emails/index.html.erb:14
+  Rendered emails/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 20ms (Views: 16.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 23:41:36 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:8
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.1ms)
+
+
+  
+NoMethodError (undefined method `read=' for #<Email:0x00007fab7ec781a8>
+Did you mean?  reload):
+  
+app/controllers/emails_controller.rb:9:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 23:41:36 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:8
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.1ms)
+
+
+  
+NoMethodError (undefined method `read=' for #<Email:0x00007fab79c85420>
+Did you mean?  reload):
+  
+app/controllers/emails_controller.rb:9:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 23:41:36 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mEmail Load (0.2ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:8
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.2ms)
+
+
+  
+NoMethodError (undefined method `read=' for #<Email:0x00007fab801127f8>
+Did you mean?  reload):
+  
+app/controllers/emails_controller.rb:9:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 23:41:36 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:8
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.1ms)
+
+
+  
+NoMethodError (undefined method `read=' for #<Email:0x00007fab7ee80a90>
+Did you mean?  reload):
+  
+app/controllers/emails_controller.rb:9:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 23:41:36 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:8
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.1ms)
+
+
+  
+NoMethodError (undefined method `read=' for #<Email:0x00007fab7e868900>
+Did you mean?  reload):
+  
+app/controllers/emails_controller.rb:9:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 23:48:30 +0200
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/jounane/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mEmail Load (0.2ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:8
+Completed 500 Internal Server Error in 20ms (ActiveRecord: 0.6ms)
+
+
+  
+NoMethodError (undefined method `read=' for #<Email:0x00007fb551b82ca8>
+Did you mean?  reload):
+  
+app/controllers/emails_controller.rb:9:in `show'
+Started GET "/" for 127.0.0.1 at 2018-08-23 23:48:32 +0200
+Processing by EmailsController#index as HTML
+  Rendering emails/index.html.erb within layouts/application
+  [1m[36mEmail Load (0.2ms)[0m  [1m[34mSELECT "emails".* FROM "emails"[0m
+  ↳ app/views/emails/index.html.erb:14
+  Rendered emails/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 221ms (Views: 216.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 23:48:35 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mEmail Load (0.2ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:8
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.2ms)
+
+
+  
+NoMethodError (undefined method `read=' for #<Email:0x00007fb55223d368>
+Did you mean?  reload):
+  
+app/controllers/emails_controller.rb:9:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 23:48:35 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:8
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.1ms)
+
+
+  
+NoMethodError (undefined method `read=' for #<Email:0x00007fb55329efb8>
+Did you mean?  reload):
+  
+app/controllers/emails_controller.rb:9:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 23:48:35 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:8
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.1ms)
+
+
+  
+NoMethodError (undefined method `read=' for #<Email:0x00007fb557407d60>
+Did you mean?  reload):
+  
+app/controllers/emails_controller.rb:9:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 23:48:35 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:8
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.1ms)
+
+
+  
+NoMethodError (undefined method `read=' for #<Email:0x00007fb55213d738>
+Did you mean?  reload):
+  
+app/controllers/emails_controller.rb:9:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 23:48:35 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:8
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.1ms)
+
+
+  
+NoMethodError (undefined method `read=' for #<Email:0x00007fb557317838>
+Did you mean?  reload):
+  
+app/controllers/emails_controller.rb:9:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-23 23:48:36 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:8
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.1ms)
+
+
+  
+NoMethodError (undefined method `read=' for #<Email:0x00007fb55157a298>
+Did you mean?  reload):
+  
+app/controllers/emails_controller.rb:9:in `show'
+Started GET "/" for 127.0.0.1 at 2018-08-24 00:16:50 +0200
+Processing by EmailsController#index as HTML
+  Rendering emails/index.html.erb within layouts/application
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT "emails".* FROM "emails"[0m
+  ↳ app/views/emails/index.html.erb:14
+  Rendered emails/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 25ms (Views: 22.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-24 00:16:56 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:8
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.1ms)
+
+
+  
+NoMethodError (undefined method `read=' for #<Email:0x00007fb55657d5b0>
+Did you mean?  reload):
+  
+app/controllers/emails_controller.rb:9:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-24 00:16:56 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:8
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.1ms)
+
+
+  
+NoMethodError (undefined method `read=' for #<Email:0x00007fb5567af608>
+Did you mean?  reload):
+  
+app/controllers/emails_controller.rb:9:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-24 00:16:56 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:8
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.1ms)
+
+
+  
+NoMethodError (undefined method `read=' for #<Email:0x00007fb5564a48c8>
+Did you mean?  reload):
+  
+app/controllers/emails_controller.rb:9:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-24 00:16:57 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:8
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.1ms)
+
+
+  
+NoMethodError (undefined method `read=' for #<Email:0x00007fb5571d9930>
+Did you mean?  reload):
+  
+app/controllers/emails_controller.rb:9:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-24 00:16:57 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:8
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.1ms)
+
+
+  
+NoMethodError (undefined method `read=' for #<Email:0x00007fb5531b6650>
+Did you mean?  reload):
+  
+app/controllers/emails_controller.rb:9:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-24 00:16:57 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:8
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.1ms)
+
+
+  
+NoMethodError (undefined method `read=' for #<Email:0x00007fb5566d4698>
+Did you mean?  reload):
+  
+app/controllers/emails_controller.rb:9:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-24 00:16:57 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:8
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.1ms)
+
+
+  
+NoMethodError (undefined method `read=' for #<Email:0x00007fb5563df4b0>
+Did you mean?  reload):
+  
+app/controllers/emails_controller.rb:9:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-24 00:16:58 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:8
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.1ms)
+
+
+  
+NoMethodError (undefined method `read=' for #<Email:0x00007fb557039af8>
+Did you mean?  reload):
+  
+app/controllers/emails_controller.rb:9:in `show'
+Started GET "/" for 127.0.0.1 at 2018-08-24 00:17:50 +0200
+Processing by EmailsController#index as HTML
+  Rendering emails/index.html.erb within layouts/application
+  [1m[36mEmail Load (0.3ms)[0m  [1m[34mSELECT "emails".* FROM "emails"[0m
+  ↳ app/views/emails/index.html.erb:14
+  Rendered emails/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 39ms (Views: 34.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-24 00:18:33 +0200
+Processing by EmailsController#index as HTML
+  Rendering emails/index.html.erb within layouts/application
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT "emails".* FROM "emails"[0m
+  ↳ app/views/emails/index.html.erb:14
+  Rendered emails/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 19ms (Views: 17.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-24 00:20:02 +0200
+Processing by EmailsController#index as HTML
+  Rendering emails/index.html.erb within layouts/application
+  [1m[36mEmail Load (0.2ms)[0m  [1m[34mSELECT "emails".* FROM "emails"[0m
+  ↳ app/views/emails/index.html.erb:14
+  Rendered emails/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 17ms (Views: 15.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-24 00:20:03 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:8
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.1ms)
+
+
+  
+NoMethodError (undefined method `read=' for #<Email:0x00007fb5566cfe68>
+Did you mean?  reload):
+  
+app/controllers/emails_controller.rb:9:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-24 00:20:03 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:8
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.1ms)
+
+
+  
+NoMethodError (undefined method `read=' for #<Email:0x00007fb5533b7af8>
+Did you mean?  reload):
+  
+app/controllers/emails_controller.rb:9:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-24 00:20:03 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:8
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.1ms)
+
+
+  
+NoMethodError (undefined method `read=' for #<Email:0x00007fb554dc9e00>
+Did you mean?  reload):
+  
+app/controllers/emails_controller.rb:9:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-24 00:20:03 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:8
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.1ms)
+
+
+  
+NoMethodError (undefined method `read=' for #<Email:0x00007fb55802b358>
+Did you mean?  reload):
+  
+app/controllers/emails_controller.rb:9:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-24 00:20:04 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mEmail Load (0.2ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:8
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.2ms)
+
+
+  
+NoMethodError (undefined method `read=' for #<Email:0x00007fb5565b4dd0>
+Did you mean?  reload):
+  
+app/controllers/emails_controller.rb:9:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-24 00:20:04 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:8
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.1ms)
+
+
+  
+NoMethodError (undefined method `read=' for #<Email:0x00007fb557277b58>
+Did you mean?  reload):
+  
+app/controllers/emails_controller.rb:9:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-24 00:20:04 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:8
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.1ms)
+
+
+  
+NoMethodError (undefined method `read=' for #<Email:0x00007fb556197540>
+Did you mean?  reload):
+  
+app/controllers/emails_controller.rb:9:in `show'
+Started GET "/" for 127.0.0.1 at 2018-08-24 00:25:41 +0200
+Processing by EmailsController#index as HTML
+  Rendering emails/index.html.erb within layouts/application
+  [1m[36mEmail Load (0.2ms)[0m  [1m[34mSELECT "emails".* FROM "emails"[0m
+  ↳ app/views/emails/index.html.erb:14
+  Rendered emails/index.html.erb within layouts/application (226.8ms)
+Completed 500 Internal Server Error in 232ms (ActiveRecord: 0.2ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `email' for #<#<Class:0x00007fb551bfaf00>:0x00007fb5567d5768>
+Did you mean?  email_url):
+    32: 
+    33: 					<table id="content">
+    34: 						
+    35: 							<span><strong id="object"><%= email.object %></strong></span>
+    36: 							<p id="body"><%= email.body %></p>
+    37: 						
+    38: 					</table>
+  
+app/views/emails/index.html.erb:35:in `_app_views_emails_index_html_erb__3751622837715422266_70208408432720'
+Started GET "/" for 127.0.0.1 at 2018-08-24 00:26:21 +0200
+Processing by EmailsController#index as HTML
+  Rendering emails/index.html.erb within layouts/application
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT "emails".* FROM "emails"[0m
+  ↳ app/views/emails/index.html.erb:14
+  Rendered emails/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 24ms (Views: 22.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-24 00:26:27 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mEmail Load (0.4ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:8
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.4ms)
+
+
+  
+NoMethodError (undefined method `read=' for #<Email:0x00007fb55316ebc0>
+Did you mean?  reload):
+  
+app/controllers/emails_controller.rb:9:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-24 00:26:27 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mEmail Load (0.2ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:8
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.2ms)
+
+
+  
+NoMethodError (undefined method `read=' for #<Email:0x00007fb5564bc5b8>
+Did you mean?  reload):
+  
+app/controllers/emails_controller.rb:9:in `show'
+Started GET "/" for 127.0.0.1 at 2018-08-24 00:26:50 +0200
+Processing by EmailsController#index as HTML
+  Rendering emails/index.html.erb within layouts/application
+  [1m[36mEmail Load (0.2ms)[0m  [1m[34mSELECT "emails".* FROM "emails"[0m
+  ↳ app/views/emails/index.html.erb:14
+  Rendered emails/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 25ms (Views: 22.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-24 00:26:57 +0200
+Processing by EmailsController#index as HTML
+  Rendering emails/index.html.erb within layouts/application
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT "emails".* FROM "emails"[0m
+  ↳ app/views/emails/index.html.erb:14
+  Rendered emails/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 29ms (Views: 25.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-24 00:27:00 +0200
+Processing by EmailsController#index as HTML
+  Rendering emails/index.html.erb within layouts/application
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT "emails".* FROM "emails"[0m
+  ↳ app/views/emails/index.html.erb:14
+  Rendered emails/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 21ms (Views: 18.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-24 00:28:06 +0200
+Processing by EmailsController#index as HTML
+  Rendering emails/index.html.erb within layouts/application
+  [1m[36mEmail Load (0.3ms)[0m  [1m[34mSELECT "emails".* FROM "emails"[0m
+  ↳ app/views/emails/index.html.erb:14
+  Rendered emails/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 26ms (Views: 23.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-24 00:28:26 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:8
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.1ms)
+
+
+  
+NoMethodError (undefined method `read=' for #<Email:0x00007fb5573a5ca0>
+Did you mean?  reload):
+  
+app/controllers/emails_controller.rb:9:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-24 00:28:26 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:8
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.1ms)
+
+
+  
+NoMethodError (undefined method `read=' for #<Email:0x00007fb5567ef7d0>
+Did you mean?  reload):
+  
+app/controllers/emails_controller.rb:9:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-24 00:28:26 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:8
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.1ms)
+
+
+  
+NoMethodError (undefined method `read=' for #<Email:0x00007fb5533d5670>
+Did you mean?  reload):
+  
+app/controllers/emails_controller.rb:9:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-24 00:28:26 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:8
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.1ms)
+
+
+  
+NoMethodError (undefined method `read=' for #<Email:0x00007fb557189e80>
+Did you mean?  reload):
+  
+app/controllers/emails_controller.rb:9:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-24 00:28:27 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:8
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.1ms)
+
+
+  
+NoMethodError (undefined method `read=' for #<Email:0x00007fb55155eb10>
+Did you mean?  reload):
+  
+app/controllers/emails_controller.rb:9:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-24 00:28:27 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:8
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.1ms)
+
+
+  
+NoMethodError (undefined method `read=' for #<Email:0x00007fb55669c248>
+Did you mean?  reload):
+  
+app/controllers/emails_controller.rb:9:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-24 00:28:27 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:8
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.1ms)
+
+
+  
+NoMethodError (undefined method `read=' for #<Email:0x00007fb5563d7350>
+Did you mean?  reload):
+  
+app/controllers/emails_controller.rb:9:in `show'
+Started GET "/" for 127.0.0.1 at 2018-08-24 00:32:50 +0200
+Processing by EmailsController#index as HTML
+  Rendering emails/index.html.erb within layouts/application
+  [1m[36mEmail Load (0.7ms)[0m  [1m[34mSELECT "emails".* FROM "emails"[0m
+  ↳ app/views/emails/index.html.erb:14
+  Rendered emails/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 26ms (Views: 23.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-24 00:32:54 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:8
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.1ms)
+
+
+  
+NoMethodError (undefined method `read=' for #<Email:0x00007fb5531dd048>
+Did you mean?  reload):
+  
+app/controllers/emails_controller.rb:9:in `show'
+Started GET "/" for 127.0.0.1 at 2018-08-24 00:33:05 +0200
+Processing by EmailsController#index as HTML
+  Rendering emails/index.html.erb within layouts/application
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT "emails".* FROM "emails"[0m
+  ↳ app/views/emails/index.html.erb:14
+  Rendered emails/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 18ms (Views: 15.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-24 00:33:11 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:8
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.1ms)
+
+
+  
+NoMethodError (undefined method `read=' for #<Email:0x00007fb5566561f8>
+Did you mean?  reload):
+  
+app/controllers/emails_controller.rb:9:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-24 00:33:11 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mEmail Load (0.2ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:8
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.2ms)
+
+
+  
+NoMethodError (undefined method `read=' for #<Email:0x00007fb5572cfec0>
+Did you mean?  reload):
+  
+app/controllers/emails_controller.rb:9:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-24 00:33:12 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:8
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.1ms)
+
+
+  
+NoMethodError (undefined method `read=' for #<Email:0x00007fb554b10f38>
+Did you mean?  reload):
+  
+app/controllers/emails_controller.rb:9:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-24 00:33:12 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:8
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.1ms)
+
+
+  
+NoMethodError (undefined method `read=' for #<Email:0x00007fb5522ac970>
+Did you mean?  reload):
+  
+app/controllers/emails_controller.rb:9:in `show'
+Started GET "/" for 127.0.0.1 at 2018-08-24 00:33:21 +0200
+Processing by EmailsController#index as HTML
+  Rendering emails/index.html.erb within layouts/application
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT "emails".* FROM "emails"[0m
+  ↳ app/views/emails/index.html.erb:14
+  Rendered emails/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 17ms (Views: 15.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-24 00:33:38 +0200
+Processing by EmailsController#index as HTML
+  Rendering emails/index.html.erb within layouts/application
+  [1m[36mEmail Load (0.2ms)[0m  [1m[34mSELECT "emails".* FROM "emails"[0m
+  ↳ app/views/emails/index.html.erb:14
+  Rendered emails/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 19ms (Views: 17.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-24 00:33:38 +0200
+Processing by EmailsController#index as HTML
+  Rendering emails/index.html.erb within layouts/application
+  [1m[36mEmail Load (0.4ms)[0m  [1m[34mSELECT "emails".* FROM "emails"[0m
+  ↳ app/views/emails/index.html.erb:14
+  Rendered emails/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 17ms (Views: 15.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-24 00:33:59 +0200
+Processing by EmailsController#index as HTML
+  Rendering emails/index.html.erb within layouts/application
+  [1m[36mEmail Load (0.3ms)[0m  [1m[34mSELECT "emails".* FROM "emails"[0m
+  ↳ app/views/emails/index.html.erb:14
+  Rendered emails/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 18ms (Views: 16.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-24 00:34:01 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mEmail Load (0.2ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:8
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.2ms)
+
+
+  
+NoMethodError (undefined method `read=' for #<Email:0x00007fb556235f60>
+Did you mean?  reload):
+  
+app/controllers/emails_controller.rb:9:in `show'
+Started GET "/emails/1" for 127.0.0.1 at 2018-08-24 00:34:01 +0200
+Processing by EmailsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mEmail Load (0.1ms)[0m  [1m[34mSELECT  "emails".* FROM "emails" WHERE "emails"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/emails_controller.rb:8
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.1ms)
+
+
+  
+NoMethodError (undefined method `read=' for #<Email:0x00007fb558030420>
+Did you mean?  reload):
+  
+app/controllers/emails_controller.rb:9:in `show'
